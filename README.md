@@ -1,3 +1,24 @@
+# Approach
+
+* Used drush to download and install Drupal 7 in a generic confiuration following the "Quick installation with Drush" section of https://www.drupal.org/documentation/install/developers.
+* Downloaded and enabled necessary contributed modules using drush.
+* Used devel_generate to generate 10 nodes.
+* Created a basic page view of Article content.
+* Changed the style of the basic page view of Article content to 'XML data document' using 'Raw XML' as the format.
+* Changed permission of the view so that only Authenticated users were able to view it.
+* Created a new feature and added this view and all it's dependencies to it.
+* Tested by creating a new blank site, downloading and enabling contrib modules, and enabling the feature.
+* Tested by logging out of the test site and attempting to access the feed.
+* Added all to the repository.
+
+# Contributed modules used
+
+* views, views_ui
+* devel, devel_generate
+* views_datasource - only enabled the views_xml plugin
+
+
+
 # Your task
    
 A client wants to build a site where he exposes content via an XML feed.
