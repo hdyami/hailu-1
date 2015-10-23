@@ -6,7 +6,7 @@
 * Created a basic page view of Article content.
 * Changed the style of the basic page view of Article content to 'XML data document' using 'Raw XML' as the format.
 * Changed permission of the view so that only Authenticated users were able to view it.
-* Created a new feature and added this view and all it's dependencies to it.
+* Created a new feature named 'article_xml' and added this view and all it's dependencies to it.
 * Tested by creating a new blank site, downloading and enabling contrib modules, and enabling the feature.
 * Tested by logging out of the test site and attempting to access the feed.
 * Added all to the repository.
